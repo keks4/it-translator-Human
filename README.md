@@ -25,16 +25,16 @@
 ```
 it-translator-Human/
 |-- backend/
-|   |-- __init__.py       # пустой, нужен для импортов Python
+|   |-- __init__.py       # файл для Python-импортов
 |   |-- main.py           # FastAPI: эндпоинты
-|   |-- gpt_service.py    # интеграция с OpenAI
+|   |-- gpt_service.py    # интеграция с OpenAI API
 |   |-- database.py       # SQLite: сохранение и чтение истории
 |-- frontend/
 |   |-- app.py            # Streamlit: веб-интерфейс
-|-- requirements.txt
-|-- .env.example
-|-- .gitignore
-|-- README.md
+|-- requirements.txt      # зависимости Python
+|-- .env.example          # пример переменных окружения без настоящего ключа
+|-- .gitignore            # файлы, которые не загружаются на GitHub
+|-- README.md             # описание проекта
 ```
 
 
@@ -54,6 +54,7 @@ it-translator-Human/
 
 
 Backend доступен по адресу: `http://localhost:8000`
+
 Документация API (Swagger): `http://localhost:8000/docs`
 
 Frontend доступен по адресу: `http://localhost:8501`
