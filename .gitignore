@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.db
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.DS_Store
+abra_codabra.md
+Human_venv/
