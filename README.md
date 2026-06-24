@@ -22,8 +22,8 @@
 
 
 ## Структура проекта
-
-it-translator-project/
+```
+it-translator-Human/
 |-- backend/
 |   |-- __init__.py       # пустой, нужен для импортов Python
 |   |-- main.py           # FastAPI: эндпоинты
@@ -35,7 +35,7 @@ it-translator-project/
 |-- .env.example
 |-- .gitignore
 |-- README.md
-
+```
 
 
 ## Схема работы
@@ -78,13 +78,14 @@ Frontend доступен по адресу: `http://localhost:8501`
    .venv/
    venv/
    __pycache__/
+   Human_venv
 
 Чтобы не загрузить:
   - настоящий API-ключ
   - локальную базу данных
   - виртуальное окружение Python
 
-Файл .env.example загружен для примера
+Файл .env.example загружен на GitHub для примера
 
 
 
